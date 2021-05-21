@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.WomenInTech.API", "Meetup.WomenInTech\Meetup.WomenInTech.API.csproj", "{85E3F432-F193-40CE-B5D4-D93C0783F491}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.WomenInTech.Services", "Meetup.WomenInTech.Services\Meetup.WomenInTech.Services.csproj", "{830548B9-413A-4DA3-873E-FE5182E4A20C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.WomenInTech.PushEventToBlobFuncApp", "PushEventToBlob\Meetup.WomenInTech.PushEventToBlobFuncApp.csproj", "{776EBFD7-E61F-4E78-854D-15030135F652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.WomenInTech.CassandraRepository", "Meetup.WomenInTech.CassandraRepository\Meetup.WomenInTech.CassandraRepository.csproj", "{42CC6408-DBE4-4CC1-8435-AA335B34760A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetup.WomenInTech.EventGridFuncApp", "Meetup.WomenInTech.EventGridFuncApp\Meetup.WomenInTech.EventGridFuncApp.csproj", "{2D3C19DB-2BA1-4434-9BEE-E390B9C1EB27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85E3F432-F193-40CE-B5D4-D93C0783F491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E3F432-F193-40CE-B5D4-D93C0783F491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E3F432-F193-40CE-B5D4-D93C0783F491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E3F432-F193-40CE-B5D4-D93C0783F491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830548B9-413A-4DA3-873E-FE5182E4A20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830548B9-413A-4DA3-873E-FE5182E4A20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830548B9-413A-4DA3-873E-FE5182E4A20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830548B9-413A-4DA3-873E-FE5182E4A20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776EBFD7-E61F-4E78-854D-15030135F652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776EBFD7-E61F-4E78-854D-15030135F652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776EBFD7-E61F-4E78-854D-15030135F652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776EBFD7-E61F-4E78-854D-15030135F652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CC6408-DBE4-4CC1-8435-AA335B34760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CC6408-DBE4-4CC1-8435-AA335B34760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CC6408-DBE4-4CC1-8435-AA335B34760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CC6408-DBE4-4CC1-8435-AA335B34760A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3C19DB-2BA1-4434-9BEE-E390B9C1EB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3C19DB-2BA1-4434-9BEE-E390B9C1EB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3C19DB-2BA1-4434-9BEE-E390B9C1EB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3C19DB-2BA1-4434-9BEE-E390B9C1EB27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B21D14F2-EEA5-429E-AA2E-0F341FAFE448}
+	EndGlobalSection
+EndGlobal
